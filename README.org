@@ -24,6 +24,14 @@ cache persisted through a [[https://github.com/jimpil/duratom][duratom]].
 
 ~com.github.genqref/genqref-lib {:mvn/version "0.1.0"}~
 
+*...or try it out in the repl using [[https://github.com/eval/deps-try][deps-try]]*
+
+~deps-try com.github.genqref/genqref-lib~
+
+...also possible as a git dependency
+
+~deps-try https://github.com/genqref/genqref-lib~
+
 * Introduction
 
 #+begin_src clojure
